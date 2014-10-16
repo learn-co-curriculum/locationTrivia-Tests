@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72DD18FA19A53438004F3C2F /* FISLocationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD18F919A53438004F3C2F /* FISLocationsTableViewController.m */; };
+		72DD18FD19A53996004F3C2F /* FISTriviaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DD18FC19A53996004F3C2F /* FISTriviaTableViewController.m */; };
+		D89217F719543E5800FF6E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89217F619543E5800FF6E4A /* Foundation.framework */; };
+		D89217F919543E5800FF6E4A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89217F819543E5800FF6E4A /* CoreGraphics.framework */; };
+		D89217FB19543E5800FF6E4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89217FA19543E5800FF6E4A /* UIKit.framework */; };
+		D892180119543E5800FF6E4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D89217FF19543E5800FF6E4A /* InfoPlist.strings */; };
+		D892180319543E5800FF6E4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D892180219543E5800FF6E4A /* main.m */; };
+		D892180719543E5800FF6E4A /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D892180619543E5800FF6E4A /* FISAppDelegate.m */; };
+		D892180A19543E5800FF6E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D892180819543E5800FF6E4A /* Main.storyboard */; };
+		D892180F19543E5800FF6E4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D892180E19543E5800FF6E4A /* Images.xcassets */; };
+		D892181619543E5800FF6E4A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D892181519543E5800FF6E4A /* XCTest.framework */; };
+		D892181719543E5800FF6E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89217F619543E5800FF6E4A /* Foundation.framework */; };
+		D892181819543E5800FF6E4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D89217FA19543E5800FF6E4A /* UIKit.framework */; };
+		D892182019543E5800FF6E4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D892181E19543E5800FF6E4A /* InfoPlist.strings */; };
+		D892183519543EF200FF6E4A /* FISLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D892183219543EF200FF6E4A /* FISLocation.m */; };
+		D892183619543EF200FF6E4A /* FISTrivia.m in Sources */ = {isa = PBXBuildFile; fileRef = D892183419543EF200FF6E4A /* FISTrivia.m */; };
+		FA36BC3C4FF2439DB1542EE5 /* libPods-locationTrivia-tableviewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFEA706CF3F4F46BA0BF111 /* libPods-locationTrivia-tableviewsTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D892181919543E5800FF6E4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D89217EB19543E5800FF6E4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89217F219543E5800FF6E4A;
+			remoteInfo = "locationTrivia-tableviews";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BFEA706CF3F4F46BA0BF111 /* libPods-locationTrivia-tableviewsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-locationTrivia-tableviewsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		720B0E3ACD0BEB541AAC8368 /* Pods-locationTrivia-tableviewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locationTrivia-tableviewsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-locationTrivia-tableviewsTests/Pods-locationTrivia-tableviewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72DD18F819A53438004F3C2F /* FISLocationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISLocationsTableViewController.h; sourceTree = "<group>"; };
+		72DD18F919A53438004F3C2F /* FISLocationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISLocationsTableViewController.m; sourceTree = "<group>"; };
+		72DD18FB19A53996004F3C2F /* FISTriviaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTriviaTableViewController.h; sourceTree = "<group>"; };
+		72DD18FC19A53996004F3C2F /* FISTriviaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTriviaTableViewController.m; sourceTree = "<group>"; };
+		D89217F319543E5800FF6E4A /* locationTrivia-tableviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "locationTrivia-tableviews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89217F619543E5800FF6E4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D89217F819543E5800FF6E4A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D89217FA19543E5800FF6E4A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D89217FE19543E5800FF6E4A /* locationTrivia-tableviews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "locationTrivia-tableviews-Info.plist"; sourceTree = "<group>"; };
+		D892180019543E5800FF6E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D892180219543E5800FF6E4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D892180419543E5800FF6E4A /* locationTrivia-tableviews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "locationTrivia-tableviews-Prefix.pch"; sourceTree = "<group>"; };
+		D892180519543E5800FF6E4A /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		D892180619543E5800FF6E4A /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		D892180919543E5800FF6E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D892180E19543E5800FF6E4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D892181419543E5800FF6E4A /* locationTrivia-tableviewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "locationTrivia-tableviewsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D892181519543E5800FF6E4A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D892181D19543E5800FF6E4A /* locationTrivia-tableviewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "locationTrivia-tableviewsTests-Info.plist"; sourceTree = "<group>"; };
+		D892181F19543E5800FF6E4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D892183119543EF200FF6E4A /* FISLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISLocation.h; sourceTree = "<group>"; };
+		D892183219543EF200FF6E4A /* FISLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISLocation.m; sourceTree = "<group>"; };
+		D892183319543EF200FF6E4A /* FISTrivia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTrivia.h; sourceTree = "<group>"; };
+		D892183419543EF200FF6E4A /* FISTrivia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTrivia.m; sourceTree = "<group>"; };
+		FCC73470A40D7689B5AE93AD /* Pods-locationTrivia-tableviewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locationTrivia-tableviewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-locationTrivia-tableviewsTests/Pods-locationTrivia-tableviewsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D89217F019543E5800FF6E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89217F919543E5800FF6E4A /* CoreGraphics.framework in Frameworks */,
+				D89217FB19543E5800FF6E4A /* UIKit.framework in Frameworks */,
+				D89217F719543E5800FF6E4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D892181119543E5800FF6E4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D892181619543E5800FF6E4A /* XCTest.framework in Frameworks */,
+				D892181819543E5800FF6E4A /* UIKit.framework in Frameworks */,
+				D892181719543E5800FF6E4A /* Foundation.framework in Frameworks */,
+				FA36BC3C4FF2439DB1542EE5 /* libPods-locationTrivia-tableviewsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A3222A464DB1D1009B6C36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				720B0E3ACD0BEB541AAC8368 /* Pods-locationTrivia-tableviewsTests.debug.xcconfig */,
+				FCC73470A40D7689B5AE93AD /* Pods-locationTrivia-tableviewsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89217EA19543E5800FF6E4A = {
+			isa = PBXGroup;
+			children = (
+				D89217FC19543E5800FF6E4A /* locationTrivia-tableviews */,
+				D892181B19543E5800FF6E4A /* locationTrivia-tableviewsTests */,
+				D89217F519543E5800FF6E4A /* Frameworks */,
+				D89217F419543E5800FF6E4A /* Products */,
+				88A3222A464DB1D1009B6C36 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D89217F419543E5800FF6E4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89217F319543E5800FF6E4A /* locationTrivia-tableviews.app */,
+				D892181419543E5800FF6E4A /* locationTrivia-tableviewsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89217F519543E5800FF6E4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D89217F619543E5800FF6E4A /* Foundation.framework */,
+				D89217F819543E5800FF6E4A /* CoreGraphics.framework */,
+				D89217FA19543E5800FF6E4A /* UIKit.framework */,
+				D892181519543E5800FF6E4A /* XCTest.framework */,
+				4BFEA706CF3F4F46BA0BF111 /* libPods-locationTrivia-tableviewsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89217FC19543E5800FF6E4A /* locationTrivia-tableviews */ = {
+			isa = PBXGroup;
+			children = (
+				72DD18F819A53438004F3C2F /* FISLocationsTableViewController.h */,
+				72DD18F919A53438004F3C2F /* FISLocationsTableViewController.m */,
+				72DD18FB19A53996004F3C2F /* FISTriviaTableViewController.h */,
+				72DD18FC19A53996004F3C2F /* FISTriviaTableViewController.m */,
+				D892180519543E5800FF6E4A /* FISAppDelegate.h */,
+				D892180619543E5800FF6E4A /* FISAppDelegate.m */,
+				D892180819543E5800FF6E4A /* Main.storyboard */,
+				D892183119543EF200FF6E4A /* FISLocation.h */,
+				D892183219543EF200FF6E4A /* FISLocation.m */,
+				D892183319543EF200FF6E4A /* FISTrivia.h */,
+				D892183419543EF200FF6E4A /* FISTrivia.m */,
+				D892180E19543E5800FF6E4A /* Images.xcassets */,
+				D89217FD19543E5800FF6E4A /* Supporting Files */,
+			);
+			path = "locationTrivia-tableviews";
+			sourceTree = "<group>";
+		};
+		D89217FD19543E5800FF6E4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89217FE19543E5800FF6E4A /* locationTrivia-tableviews-Info.plist */,
+				D89217FF19543E5800FF6E4A /* InfoPlist.strings */,
+				D892180219543E5800FF6E4A /* main.m */,
+				D892180419543E5800FF6E4A /* locationTrivia-tableviews-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D892181B19543E5800FF6E4A /* locationTrivia-tableviewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D892181C19543E5800FF6E4A /* Supporting Files */,
+			);
+			path = "locationTrivia-tableviewsTests";
+			sourceTree = "<group>";
+		};
+		D892181C19543E5800FF6E4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D892181D19543E5800FF6E4A /* locationTrivia-tableviewsTests-Info.plist */,
+				D892181E19543E5800FF6E4A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D89217F219543E5800FF6E4A /* locationTrivia-tableviews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D892182519543E5800FF6E4A /* Build configuration list for PBXNativeTarget "locationTrivia-tableviews" */;
+			buildPhases = (
+				D89217EF19543E5800FF6E4A /* Sources */,
+				D89217F019543E5800FF6E4A /* Frameworks */,
+				D89217F119543E5800FF6E4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "locationTrivia-tableviews";
+			productName = "locationTrivia-tableviews";
+			productReference = D89217F319543E5800FF6E4A /* locationTrivia-tableviews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D892181319543E5800FF6E4A /* locationTrivia-tableviewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D892182819543E5800FF6E4A /* Build configuration list for PBXNativeTarget "locationTrivia-tableviewsTests" */;
+			buildPhases = (
+				554F7D10BCFB4281BB5C6801 /* Check Pods Manifest.lock */,
+				D892181019543E5800FF6E4A /* Sources */,
+				D892181119543E5800FF6E4A /* Frameworks */,
+				D892181219543E5800FF6E4A /* Resources */,
+				E4E75E4F6DF84592927C99FA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D892181A19543E5800FF6E4A /* PBXTargetDependency */,
+			);
+			name = "locationTrivia-tableviewsTests";
+			productName = "locationTrivia-tableviewsTests";
+			productReference = D892181419543E5800FF6E4A /* locationTrivia-tableviewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D89217EB19543E5800FF6E4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Joe Burgess";
+				TargetAttributes = {
+					D892181319543E5800FF6E4A = {
+						TestTargetID = D89217F219543E5800FF6E4A;
+					};
+				};
+			};
+			buildConfigurationList = D89217EE19543E5800FF6E4A /* Build configuration list for PBXProject "locationTrivia-tableviews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D89217EA19543E5800FF6E4A;
+			productRefGroup = D89217F419543E5800FF6E4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89217F219543E5800FF6E4A /* locationTrivia-tableviews */,
+				D892181319543E5800FF6E4A /* locationTrivia-tableviewsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D89217F119543E5800FF6E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D892180F19543E5800FF6E4A /* Images.xcassets in Resources */,
+				D892180119543E5800FF6E4A /* InfoPlist.strings in Resources */,
+				D892180A19543E5800FF6E4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D892181219543E5800FF6E4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D892182019543E5800FF6E4A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		554F7D10BCFB4281BB5C6801 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E75E4F6DF84592927C99FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-locationTrivia-tableviewsTests/Pods-locationTrivia-tableviewsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D89217EF19543E5800FF6E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD18FA19A53438004F3C2F /* FISLocationsTableViewController.m in Sources */,
+				D892180319543E5800FF6E4A /* main.m in Sources */,
+				D892183619543EF200FF6E4A /* FISTrivia.m in Sources */,
+				72DD18FD19A53996004F3C2F /* FISTriviaTableViewController.m in Sources */,
+				D892183519543EF200FF6E4A /* FISLocation.m in Sources */,
+				D892180719543E5800FF6E4A /* FISAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D892181019543E5800FF6E4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D892181A19543E5800FF6E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89217F219543E5800FF6E4A /* locationTrivia-tableviews */;
+			targetProxy = D892181919543E5800FF6E4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D89217FF19543E5800FF6E4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D892180019543E5800FF6E4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D892180819543E5800FF6E4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D892180919543E5800FF6E4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D892181E19543E5800FF6E4A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D892181F19543E5800FF6E4A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D892182319543E5800FF6E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D892182419543E5800FF6E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D892182619543E5800FF6E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locationTrivia-tableviews/locationTrivia-tableviews-Prefix.pch";
+				INFOPLIST_FILE = "locationTrivia-tableviews/locationTrivia-tableviews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D892182719543E5800FF6E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locationTrivia-tableviews/locationTrivia-tableviews-Prefix.pch";
+				INFOPLIST_FILE = "locationTrivia-tableviews/locationTrivia-tableviews-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D892182919543E5800FF6E4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720B0E3ACD0BEB541AAC8368 /* Pods-locationTrivia-tableviewsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/locationTrivia-tableviews.app/locationTrivia-tableviews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locationTrivia-tableviews/locationTrivia-tableviews-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "locationTrivia-tableviewsTests/locationTrivia-tableviewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D892182A19543E5800FF6E4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC73470A40D7689B5AE93AD /* Pods-locationTrivia-tableviewsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/locationTrivia-tableviews.app/locationTrivia-tableviews";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "locationTrivia-tableviews/locationTrivia-tableviews-Prefix.pch";
+				INFOPLIST_FILE = "locationTrivia-tableviewsTests/locationTrivia-tableviewsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D89217EE19543E5800FF6E4A /* Build configuration list for PBXProject "locationTrivia-tableviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D892182319543E5800FF6E4A /* Debug */,
+				D892182419543E5800FF6E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D892182519543E5800FF6E4A /* Build configuration list for PBXNativeTarget "locationTrivia-tableviews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D892182619543E5800FF6E4A /* Debug */,
+				D892182719543E5800FF6E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D892182819543E5800FF6E4A /* Build configuration list for PBXNativeTarget "locationTrivia-tableviewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D892182919543E5800FF6E4A /* Debug */,
+				D892182A19543E5800FF6E4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D89217EB19543E5800FF6E4A /* Project object */;
+}

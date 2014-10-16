@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D4CAF9CC-7C72-4331-BB2F-970A0F719F1E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>locationTrivia-tableviews</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D19471DEB2568581D83F96688B0531E52AFC85B</key>
+		<string>github.com:flatiron-school-ironboard/ios-003-lecture-code.git</string>
+		<key>108B5BF3D6C1D08F252D85FDDC15A1F98810AD85</key>
+		<string>github.com:flatiron-school-curriculum/locationTrivia-TableViews.git</string>
+		<key>246D9B71E04AE4C16D5479E616B68B8DC30F3164</key>
+		<string>github.com:flatiron-school-curriculum/locationTrivia-Tests.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>locationTrivia-tableviews.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D19471DEB2568581D83F96688B0531E52AFC85B</key>
+		<string>../..</string>
+		<key>108B5BF3D6C1D08F252D85FDDC15A1F98810AD85</key>
+		<string>../../locationTrivia-TableViews</string>
+		<key>246D9B71E04AE4C16D5479E616B68B8DC30F3164</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:flatiron-school-curriculum/locationTrivia-Tests.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>246D9B71E04AE4C16D5479E616B68B8DC30F3164</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D19471DEB2568581D83F96688B0531E52AFC85B</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>108B5BF3D6C1D08F252D85FDDC15A1F98810AD85</string>
+			<key>IDESourceControlWCCName</key>
+			<string>locationTrivia-TableViews</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>246D9B71E04AE4C16D5479E616B68B8DC30F3164</string>
+			<key>IDESourceControlWCCName</key>
+			<string>locationTrivia-Tests</string>
+		</dict>
+	</array>
+</dict>
+</plist>
