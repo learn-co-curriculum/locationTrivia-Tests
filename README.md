@@ -1,7 +1,4 @@
----
-tags: testing, tableviews, specta, KIF
-languages: objc
----
+
 
 # LocationTrivia-Tests
 
