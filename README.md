@@ -1,5 +1,3 @@
-
-
 # LocationTrivia-Tests
 
 ## Instructions
