@@ -21,4 +21,4 @@
   * OO-dog
   * others
 
-<a href='https://learn.co/lessons/locationTrivia-Tests' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/locationTrivia-Tests' title='LocationTrivia-Tests'>LocationTrivia-Tests</a> on Learn.co and start learning to code for free.</p>
